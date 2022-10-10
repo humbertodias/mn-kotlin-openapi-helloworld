@@ -1,6 +1,8 @@
-# Micronaut - OpenApi
+# OpenApi
 
-Testing openapi through micronaut with kotlin
+Testing openapi with Micronaut and Kotlin.
+
+Complete guide [here](https://micronaut-projects.github.io/micronaut-openapi/latest/guide/)
 
 ## How to
 
@@ -10,7 +12,7 @@ Run
 ./gradlew run
 ```
 
-Then
+Then, access:
 
 ### [Swagger-ui](http://localhost:8080/swagger/views/swagger-ui/#)
 
@@ -43,8 +45,3 @@ paths:
                 type: string
 
 ```
-
-
-# Ref
-
-- [micronaut-openapi guide](https://micronaut-projects.github.io/micronaut-openapi/latest/guide/)
