@@ -2,7 +2,12 @@
 
 Testing openapi with Micronaut and Kotlin.
 
+**Requirements**
+
+* Java 11
+
 Complete guide [here](https://micronaut-projects.github.io/micronaut-openapi/latest/guide/)
+
 
 ## How to
 
