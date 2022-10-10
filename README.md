@@ -1,10 +1,8 @@
-## Micronaut - OpenApi
+# Micronaut - OpenApi
 
 Testing openapi through micronaut with kotlin
 
----
-
-# How to
+## How to
 
 Run
 
@@ -12,14 +10,13 @@ Run
 ./gradlew run
 ```
 
-Then, access the **swagger-ui**
+Then
+
+### [Swagger-ui](http://localhost:8080/swagger/views/swagger-ui/#)
 
 <img width="1423" alt="imagen" src="https://user-images.githubusercontent.com/9255997/194904998-e6b54812-2ffa-492c-9930-f745c72a20bf.png">
 
-http://localhost:8080/swagger/views/swagger-ui/#
-
-
-And the generated **OpenAPI**
+## [OpenAPI](http://localhost:8080/swagger/mn-kotlin-openapi-helloworld-0.0.yml)
 
 ```yaml
 openapi: 3.0.1
@@ -46,8 +43,6 @@ paths:
                 type: string
 
 ```
-http://localhost:8080/swagger/mn-kotlin-openapi-helloworld-0.0.yml
-
 
 
 # Ref
